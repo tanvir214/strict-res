@@ -1,0 +1,187 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background: #f6f9f9;
+}
+
+.logo {
+    padding: 30px 0;
+}
+
+.banner {
+    width: 100%;
+    float: left;
+    background: url(../img/banner.png)no-repeat;
+    background-size: cover;
+}
+
+.banner-cont {
+    text-align: center;
+}
+
+.banner-cont h1 {
+    font-size: 120px;
+    color: #ffff;
+    padding-top: 200px;
+}
+
+.banner-cont span {
+    border-bottom: 1px solid #15a4fa;
+    display: block;
+    width: 75%;
+    margin: 10px auto;
+}
+
+.banner-cont p {
+    font-weight: 300;
+    font-size: 20px;
+    color: #ffff;
+    margin: 20px 0
+}
+
+.banner-btn {
+    padding: 12px 30px;
+    color: #ffff;
+    background: transparent;
+    border: 1px solid #15a4fa;
+    border-radius: 5px;
+    margin: 50px auto;
+    display: block;
+    transition: .4s ease;
+}
+
+.banner-btn:hover {
+    background: #15a4fa;
+}
+
+.fa.fa-angle-down {
+    font-size: 25px;
+    color: #ffff;
+    padding: 80px 0;
+}
+
+
+.simple {
+    width: 100%;
+    float: left;
+}
+
+.simple-cont {
+    background: #f6f9f9;
+    text-align: center;
+    padding: 80px 0;
+}
+
+.simple-cont h1 {
+    margin: 25px 0;
+    font-size: 40px;
+    color: #2d3950;
+}
+
+.simple-cont p {
+    font-size: 20px;
+    color: #aeafaf;
+}
+
+
+.feature {
+    width: 100%;
+    float: left;
+    padding: 60px 0;
+    background: #ffff;
+}
+
+.feature-one {
+    text-align: center;
+    padding: 0px 21px;
+    
+}
+
+.feature-one h2 {
+    font-weight: 400;
+    padding: 20px 0;
+    font-size: 22px;
+}
+
+.feature-one p {
+    font-weight: 300;
+    color: #aeafaf;
+    font-size: 15px;
+}
+
+.fa.fa-mobile {
+    font-size: 60px;
+    padding: 10px 20px;
+    background: #48baff;
+    color: #ffff;
+}
+
+.fa.fa-paper-plane {
+    font-size: 45px;
+    padding: 18px 12px;
+    background: #48baff;
+    color: #ffff;
+}
+
+.fa.fa-bullhorn {
+    font-size: 50px;
+    padding: 18px 12px;
+    background: #48baff;
+    color: #ffff;
+}
+
+
+
+
+
+
+
+
+@media (min-width: 0px) and (max-width: 500px) {
+
+    .logo {
+        padding: 30px 35px;
+    }
+
+    .banner-cont h1 {
+        padding-top: 180px;
+    }
+
+    .simple-cont h1 {
+        font-size: 35px;
+    }
+
+    .simple-cont p {
+        font-size: 15px;
+        padding: 0px 20px;
+    }
+
+    .feature-one {
+        margin: 20px 0;
+    }
+
+    .feature-one h2 {
+        padding: 0px;
+    }
+
+} 
+
+@media (min-width: 500.01px) and (max-width: 768px) {
+
+}
+
+@media (min-width: 768.01px) and (max-width: 1200px) {
+
+}
+
+@media (min-width: 1200.01px) {
+
+.logo {
+    padding: 30px 0px;
+}
+
+}
