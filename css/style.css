@@ -13,8 +13,6 @@ body {
 }
 
 .banner {
-    width: 100%;
-    float: left;
     background: url(../img/banner.png)no-repeat;
     background-size: cover;
 }
@@ -64,12 +62,6 @@ body {
     padding: 80px 0;
 }
 
-
-.simple {
-    width: 100%;
-    float: left;
-}
-
 .simple-cont {
     background: #f6f9f9;
     text-align: center;
@@ -89,8 +81,6 @@ body {
 
 
 .feature {
-    width: 100%;
-    float: left;
     padding: 60px 0;
     background: #ffff;
 }
@@ -115,23 +105,193 @@ body {
 
 .fa.fa-mobile {
     font-size: 60px;
-    padding: 10px 20px;
+    width: 100px;
+    height: 100px;
+    padding: 20px 0;
     background: #48baff;
     color: #ffff;
 }
 
 .fa.fa-paper-plane {
     font-size: 45px;
-    padding: 18px 12px;
+    width: 100px;
+    height: 100px;
+    padding: 20px 0;
     background: #48baff;
     color: #ffff;
 }
 
 .fa.fa-bullhorn {
     font-size: 50px;
-    padding: 18px 12px;
+    width: 100px;
+    height: 100px;
+    padding: 20px 0;
     background: #48baff;
     color: #ffff;
+}
+
+
+
+.portfolio {
+    padding: 80px 0;
+}
+
+.title {
+    text-align: center;
+}
+
+.title h1 {
+    padding-top: 80px;
+}
+
+.title p {
+    padding-bottom: 25px;
+}
+
+.photo {
+    width: 100%;
+    padding: 10px 0;
+}
+
+
+.stay {
+    background: url(../img/form.png);
+    padding-bottom: 110px;
+}
+
+.form-okk {
+    text-align: center;
+    padding: 100px 0;
+    color: #ffff;
+}
+
+.form-okk h2 {
+    font-size: 41px;
+    margin: 0px;
+}
+
+.form-okk p {
+    color: #aeafaf;
+    padding: 10px 0;
+    margin: 0px;
+}
+
+.form-okk form ul {
+    list-style: none;
+}
+
+.form-okk form li {
+    display: inline-block;
+}
+
+.form-cont {
+    width: 90%;
+    padding: 15px 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #999999;
+    background: transparent;
+}
+
+.text-area {
+    width: 90%;
+    height: 160px;
+    padding: 15px 15px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 10px;
+    border: 1px solid #999999;
+    background: transparent;
+    border-radius: 5px;
+}
+
+.box {
+    margin: 10px 5px;
+}
+
+.stay-btn {
+    padding: 15px 60px;
+    margin: 10px 10px;
+    border: 1px solid #15a4fa;
+    background: transparent;
+    border-radius: 5px;
+    color: #ffff;
+    transition: .4s ease;
+}
+
+.stay-btn:hover {
+    background: #15a4fa;
+}
+
+
+
+
+footer {
+    padding: 25px 0;
+}
+
+
+.copy h2 {
+    font-size: 15px;
+    color: #cbcccc;
+    margin: 15px 0;
+}
+
+
+.icon ul {
+    list-style: none;
+    text-align: right;
+}
+
+.icon ul li {
+    display: inline-block;
+}
+
+.fa.fa-facebook {
+    padding: 9px 12px;
+    background: #15a4fa;
+    color: #ffff;
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.fa.fa-facebook:hover{
+    background:#3D5A99;
+}
+
+.fa.fa-twitter {
+    padding: 9px 10px;
+    background: #15a4fa;
+    color: #ffff;
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.fa.fa-twitter:hover {
+    background:#1DA1F2;
+}
+
+.fa.fa-google-plus {
+    padding: 9px 6px;
+    background: #15a4fa;
+    color: #ffff;
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.fa.fa-google-plus:hover {
+    background: #dd4b39;
+}
+
+.fa.fa-linkedin {
+    padding: 9px 12px;
+    background: #15a4fa;
+    color: #ffff;
+    font-size: 25px;
+}
+
+.fa.fa-linkedin:hover {
+    background: #0073B0;
 }
 
 
@@ -142,6 +302,7 @@ body {
 
 
 @media (min-width: 0px) and (max-width: 500px) {
+
 
     .logo {
         padding: 30px 35px;
@@ -165,13 +326,51 @@ body {
     }
 
     .feature-one h2 {
-        padding: 0px;
+        padding: 10px 0;
     }
+
+    .fa.fa-mobile {
+        width: 80px;
+        height: 80px;
+        padding: 10px 0;
+    }
+
+    .fa.fa-paper-plane {
+        width: 80px;
+        height: 80px;
+        padding: 10px 0;
+    }
+
+    .fa.fa-bullhorn {
+        width: 80px;
+        height: 80px;
+        padding: 10px 0;
+    }
+
+    .title h1 {
+        font-size: 35px;
+    }
+
+    .photo {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .copy {
+        width: 40%;
+        float: left;
+    }
+
+    .icon {
+        width: 60%;
+        float: left;
+    }
+
 
 } 
 
 @media (min-width: 500.01px) and (max-width: 768px) {
-
+   
 }
 
 @media (min-width: 768.01px) and (max-width: 1200px) {
